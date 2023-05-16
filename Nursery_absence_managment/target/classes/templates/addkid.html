@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #00FFFF;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #00FFFF;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+<body  style="background-color:powderblue;">>
+
+<h3>ADD NEW KID</h3>
+
+<div>
+  <form action="save" method="post">
+   <label for="fname"> STUDENT ID</label>
+    <input type="text" id="id" name="id" placeholder="Your id">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+<label for="lname">Class Name</label>
+    <input type="text" id="cname" name="classname" placeholder="Your class name..">
+    <label for="lname">level</label>
+    <input type="text" id="lname" name="levelname" placeholder="Your level..">
+    <label for="lname">date</label>
+    <input type="text" id="date" name="date" placeholder="date..">
+    <label for="attendence">attendance</label>
+    <select id="attendence" name="attendence">
+      <option value="yes">yes</option>
+      <option value="NO">NO</option>
+      
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
+
+
+</body>
+</html>
